@@ -60,10 +60,12 @@ h2{
 }
 .button:hover .cls-1 {
     stroke: #F7F4F0;
+    cursor: pointer;
 }
 
 .button:hover .cls-2 {
     stroke: #F7F4F0;
+    cursor: pointer;
 }
 
 
