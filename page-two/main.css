@@ -53,8 +53,8 @@ p{
 
 .button{
     display: none;
-    width: 3.5%;
-    height: 3.5%;
+    width: 60px;
+    height: 60px;
     position: absolute;
     right: 0;
     bottom: 0;

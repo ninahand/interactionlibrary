@@ -40,7 +40,7 @@ h3{
     display: flex;
     width: 11.2%;
     margin-left: 0.5%;
-    margin-right: 2%
+    margin-right: 2%;
 }
 
 .column-two, .column-three{
@@ -61,6 +61,50 @@ h3{
     position: fixed;
     bottom: 0;
     right: 0;
-    margin-bottom: 2%;
-    margin-right: 2%;
+    margin-bottom: 8%;
+    margin-right: 5%;
+    animation: flicker 4s infinite;
+
 }
+.column-four:hover{
+    animation: pause;
+}
+
+.button{
+    display: flex;
+    flex-wrap: wrap;
+    z-index:1;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    padding-right: 2%;
+    padding-bottom: 3%;
+    bottom: 0;
+    right: 0;
+}
+
+.cls-1, .cls-2{
+    transition: all 300ms ease-in-out;
+
+}
+.button:hover .cls-1 {
+    stroke: #F7F4F0;
+    cursor: pointer;
+}
+
+.button:hover .cls-2 {
+    stroke: #F7F4F0;
+    cursor: pointer; 
+}
+
+@keyframes flicker {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.1;
+    }
+    100% {
+      opacity: 1;
+    }
+  }

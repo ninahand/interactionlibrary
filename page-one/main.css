@@ -48,7 +48,8 @@ h2{
     flex-wrap: wrap;
     z-index:1;
     position: absolute;
-    width: 5vw;
+    height: 60px;
+    width: 60px;
     padding: 1%;
     bottom: 0;
     right: 0;
