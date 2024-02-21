@@ -55,7 +55,7 @@ span{
 }
 
 .column-one, .column-two, .column-three, .column-four{
-    overflow: scroll;
+     overflow: auto;;
 
 }
 .button{
@@ -83,4 +83,8 @@ span{
 .button:hover .cls-2 {
     stroke: #F7F4F0;
     cursor: pointer; 
+}
+
+.column-one::-webkit-scrollbar, .column-two::-webkit-scrollbar, .column-three::-webkit-scrollbar, .column-four::-webkit-scrollbar {
+    display: none; 
 }

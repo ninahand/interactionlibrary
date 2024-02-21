@@ -89,5 +89,5 @@ h2{
 }
 
 .column::-webkit-scrollbar {
-    display: none; /* Hide scrollbar */
+    display: none; 
 }
