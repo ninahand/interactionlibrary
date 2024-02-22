@@ -35,17 +35,20 @@ h3{
     color: #DB4516;
     text-align: justify;
 }
-
 .column-one{
     display: flex;
     width: 11.2%;
     margin-left: 0.5%;
     margin-right: 2%;
+    filter: blur(3px);
+    transition: all 300ms ease-in-out;
 }
 
 .column-two, .column-three{
     display: flex;
     margin-right: 2%;
+    filter: blur(3px);
+    transition: all 300ms ease-in-out;
 }
 
 .column-two{
@@ -55,7 +58,10 @@ h3{
 .column-three{
     width: 23%;
 }
+.column-one:hover, .column-two:hover, .column-three:hover{
+    filter: blur(0);
 
+}
 .column-four{
     width: 60%;
     position: fixed;
@@ -63,11 +69,14 @@ h3{
     right: 0;
     margin-bottom: 8%;
     margin-right: 5%;
+    transition: all 300ms ease-in-out;
     animation: flicker 4s infinite;
+    filter: blur(3px);
 
 }
 .column-four:hover{
     animation: pause;
+    filter: blur(0);
 }
 
 .button{
