@@ -25,8 +25,11 @@ h1{
     font-size: 60px;
     line-height: 100px;
     text-align: justify;
+    margin: 2%;
 }
-
+body::-webkit-scrollbar{
+    display: none;
+}
 p{
     font-family: 'hyperscrypt';
     color: #DB4516;
@@ -76,12 +79,3 @@ p{
     stroke: #F7F4F0;
     cursor: pointer; 
 }
-
-/*.button{
-    display: none;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    padding: 2rem;
-  
-}*/
