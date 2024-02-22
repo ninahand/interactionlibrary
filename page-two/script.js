@@ -1,5 +1,5 @@
 var svgButton = document.getElementById('svgButton');
-var timeleft = 3;
+var timeleft = 90;
 var downloadTimer = setInterval(function(){
     timeleft--;
     document.getElementById("timer").textContent = timeleft;
